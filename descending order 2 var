@@ -1,0 +1,11 @@
+function descendingOrder(n){
+  return parseInt(String(n).split('').sort().reverse().join(''))
+}
+//mine
+function descendingOrder(n){
+  let a = "" + n
+  b = Array.from(a)
+  c = b.sort((a,b) => b - a)
+  d = c.join("")
+  return parseInt(d)
+}
