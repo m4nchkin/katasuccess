@@ -1,0 +1,10 @@
+function getMiddle(s)
+{
+  var a = s.length / 2
+  if (s.length % 2){
+
+    return s.charAt(Math.floor(a))
+  }else{
+    return s.charAt(a-1) + s.charAt(a)
+  }
+}
