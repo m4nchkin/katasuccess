@@ -1,0 +1,5 @@
+function squareDigits(num){
+  var a = num.toString(10).split('').map(x => Math.pow(x,2))
+              .join('')
+  return parseInt(a,10)
+}
