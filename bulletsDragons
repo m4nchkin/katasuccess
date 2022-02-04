@@ -1,0 +1,8 @@
+function hero(bullets, dragons){
+  var a = dragons * 2
+  if(a > bullets || bullets < dragons){
+    return false
+  }else{
+    return true
+  }
+}
