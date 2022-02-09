@@ -1,0 +1,9 @@
+function count (string) {  
+  var obj = {}
+  var repeats = []
+  for(let i = 0; i < string.length; i++){
+    var a = string.charAt(i)
+    obj[a] = (isNaN(obj[a]) ? 1 : obj[a] + 1)
+  }
+  return obj
+}
