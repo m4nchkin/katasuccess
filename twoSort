@@ -1,0 +1,4 @@
+function twoSort(s) {
+  const a = s.sort()
+  return a[0].split("").join("***")
+}
