@@ -1,0 +1,10 @@
+function isPangram(string){
+  var letters = /[^a-z]/gi;
+  if(string.length <= 26){
+    return false
+  }else{ 
+    return letters.test(string)
+ }
+}
+//correct
+new Set("A quick brown fox jumps over the lazy dog".toLowerCase().replace(/[^a-z]/g, "") ).size === 26
