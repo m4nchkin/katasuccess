@@ -1,0 +1,4 @@
+function goals (laLigaGoals, copaDelReyGoals, championsLeagueGoals) {
+  const foals = laLigaGoals + copaDelReyGoals + championsLeagueGoals
+  return foals
+}
