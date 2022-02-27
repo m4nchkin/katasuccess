@@ -1,0 +1,9 @@
+function shorter_reverse_longer(a,b){
+  const reverseA = a.split('').reverse().join('');
+  const reverseB = b.split('').reverse().join('');
+  if(a.length == b.length || a.length > b.length){
+    return b + reverseA + b
+  }else{
+    return a + reverseB + a
+  }
+}
