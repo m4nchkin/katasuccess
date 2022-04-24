@@ -1,0 +1,12 @@
+function giveMeFive(obj){
+  let arr = [];
+  for(let a in obj){
+    if(a.length == 5){
+      arr.push(a)
+    }
+    if(obj[a].length == 5){
+      arr.push(obj[a])
+    }
+  }
+  return arr
+}
