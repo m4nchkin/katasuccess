@@ -1,0 +1,11 @@
+function oddOrEven(array) {
+   if(array == []){
+     return 'even'
+   }else{
+   const arrSum = array.reduce((a,b)=>a+b,0)
+   if (arrSum % 2 === 0){
+     return 'even'
+   }else{
+     return 'odd'
+   }}
+}
