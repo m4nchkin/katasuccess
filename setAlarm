@@ -1,0 +1,3 @@
+function setAlarm(employed, vacation){
+  return employed === true && vacation === true ? false : employed === false && vacation === true ? false : employed === false && vacation === false ? false : true 
+}
